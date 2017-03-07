@@ -1,0 +1,45 @@
+{
+  "name": "frontera",
+  "version": "1.0.0",
+  "description": "frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avch/frontera.git"
+  },
+  "keywords": [
+    "frontend",
+    "boilerplate"
+  ],
+  "author": "avch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avch/frontera/issues"
+  },
+  "homepage": "https://github.com/avch/frontera#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "del": "^2.2.2",
+    "fancybox": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.1",
+    "node-reset-scss": "^1.0.1",
+    "slick-carousel": "^1.6.0",
+    "sprity": "^1.0.8",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

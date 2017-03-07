@@ -1,0 +1,41 @@
+// --- Fonts
+// -----------------------------
+
+$font-rub: "ALSRubl-Arial";
+
+$font-regular: Arial;
+
+@include font-face($font-rub, "../fonts/alsrubl-arial-bold", null, null, eot woff ttf svg);
+
+$line-height: 1.42857143;
+
+
+
+
+// --- Colors
+// -----------------------------
+
+
+// --- Media queries breakpoints
+// -----------------------------
+
+$screen-sm-min: 48em;
+$screen-md-min: 64em;
+$screen-lg-min: 75em;
+
+$screen-xs-max: $screen-sm-min - 0.0625em;
+$screen-sm-max: $screen-md-min - 0.0625em;
+$screen-md-max: $screen-lg-min - 0.0625em;
+
+// --- Container sizes
+// --- Define the maximum width of `.container` for different screen sizes.
+// -----------------------------
+
+// For `$screen-sm-min` and up.
+$container-sm: 46rem;
+
+// For `$screen-md-min` and up.
+$container-md: 61rem;
+
+// For `$screen-lg-min` and up.
+$container-lg: 71rem;

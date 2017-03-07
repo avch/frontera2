@@ -1,0 +1,55 @@
+*, *:before, *:after { box-sizing: border-box; }
+
+body {
+	font: 100%/#{$line-height} Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+.to-top {
+	position: fixed;
+	right: 30px;
+	bottom: 80px;
+	width: 30px;
+	height: 30px;
+	line-height: 28px;
+	border-radius: 50%;
+	text-align: center;
+	background: #f00;
+	z-index: 100;
+}
+
+.to-top:before,
+.to-top:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.to-top:before {
+	margin: -4px 0 0 -8px;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #fff;
+}
+
+.to-top:after {
+	margin: 0 0 0 -5px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #f00;
+}
+
+/*
+@media (min-width: $screen-sm-min) {
+
+}
+
+@media (min-width: $screen-md-min) {
+
+}
+
+@media (min-width: $screen-lg-min) {
+
+}
+*/

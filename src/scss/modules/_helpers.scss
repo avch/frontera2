@@ -1,0 +1,104 @@
+.clearfix { @include clearfix; }
+.hide { display: none; }
+.pull-right {float: right; }
+.pull-left { float: left; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.dotted { text-decoration: none; border-bottom: 1px dotted; }
+.dashed { text-decoration: none; border-bottom: 1px dashed; }
+
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+	display: none !important;
+}
+
+.visible-xs-block {
+	@media (max-width: $screen-xs-max) {
+		display: block !important;
+	}
+}
+.visible-xs-inline {
+	@media (max-width: $screen-xs-max) {
+		display: inline !important;
+	}
+}
+.visible-xs-inline-block {
+	@media (max-width: $screen-xs-max) {
+		display: inline-block !important;
+	}
+}
+
+.visible-sm-block {
+	@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		display: block !important;
+	}
+}
+.visible-sm-inline {
+	@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	display: inline !important;
+	}
+}
+.visible-sm-inline-block {
+	@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		display: inline-block !important;
+	}
+}
+
+.visible-md-block {
+	@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		display: block !important;
+	}
+}
+.visible-md-inline {
+	@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		display: inline !important;
+	}
+}
+.visible-md-inline-block {
+	@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		display: inline-block !important;
+	}
+}
+
+.visible-lg-block {
+	@media (min-width: $screen-lg-min) {
+		display: block !important;
+	}
+}
+.visible-lg-inline {
+	@media (min-width: $screen-lg-min) {
+		display: inline !important;
+	}
+}
+.visible-lg-inline-block {
+	@media (min-width: $screen-lg-min) {
+		display: inline-block !important;
+	}
+}
+
+@media (max-width: $screen-xs-max) {
+	.hidden-xs { display: none !important; }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.hidden-sm { display: none !important; }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	.hidden-md { display: none !important; }
+}
+
+@media (min-width: $screen-lg-min) {
+	.hidden-lg { display: none !important; }
+}
